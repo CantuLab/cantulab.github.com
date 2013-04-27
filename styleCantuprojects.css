@@ -48,10 +48,10 @@ li {margin:0; padding:0 0 0 5px;}
 /* Content area */
 #content {font-size:0.9em; background:#fff; text-align:left; padding:0; margin:0 220px 15px 0; border:2px; width:760px;}
 #content img {margin: 5px 10px 5px 5px; float:left;}
-#content h4 {font-size:1.2em; margin:0 220px 5px 0; color:#a13538; }
+#content h4 {font-size:1.2em; margin:0 0px 5px 0; color:#a13538; }
 .full, .all {overflow:hidden;}
 .full {clear:left; margin:15px 15px 0 15px; width:730px;}
-.all {clear:left; margin:3px 3px 0 15px; width:730px;}
+.all {clear:left; margin:3px 0px 0 15px; width:730px;}
 
 
 /* Footer */
