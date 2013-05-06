@@ -47,10 +47,10 @@ li {margin:0; padding:0 0 0 5px;}
 #sidebar ul.sidemenu ul li a {padding:2px 0; margin:0; font-size:0.9em;}
 
 /* Content area */
-#content {font-size:0.9em; background:#fff; text-align:left; padding:0; margin:0 220px 15px 0; border:2px; width:760px; p.small {line-height:40%}}
+#content {font-size:0.9em; background:#fff; text-align:left; padding:0; margin:0 220px 0px 0; border:2px; width:760px; p.small {line-height:40%}}
 #content img {margin: 5px 10px 5px 5px; float:left;}
 #content h4 {font-size:1.2em; margin:0 0px 0px 0; color:#a13538; }
-#content h6 {font-size:1.1em; text-align:left; padding:0; margin:0 0px 3px 0; color:#a13538; }
+#content h6 {font-size:1.1em; text-align:left; padding:0; margin:0 0 0; color:#a13538; }
 .full, .all {overflow:hidden;}
 .full {clear:left; margin:15px 15px 0 15px; width:730px;}
 .all {clear:left; margin:3px 3px 0 15px; width:730px; line-height:140%}
