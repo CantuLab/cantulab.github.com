@@ -56,10 +56,18 @@
     <a href="http://maps.google.com/maps?q=rmi+north+davis+google+maps&amp;hl=en&amp;client=firefox-a&amp;channel=fflb&amp;hnear=RMI+North,+Davis,+California+95616&amp;gl=us&amp;t=m&amp;z=16" target="_blank"><strong>Map</strong></a><br/>
     
       <a href="https://www.facebook.com/CantuLab/" class="facebook-button" data-show-count="false" target="_blank">
+<<<<<<< HEAD
+        <img src="fb.jpg" alt="Facebook" width="30" height="30" alt="facebook link"/>
+        </a> 
+        
+        <a href="https://twitter.com/CantuLab" class="twitter-button" data-show-count="false" target="_blank">
+        <img src="twitter.png" alt="Twitter" width="30" height="30" alt="Twitter link"/>
+=======
         <img src="fb.jpg" alt="Facebook" width="20" height="20" alt="facebook link"/>
         </a> 
         <a href="https://twitter.com/CantuLab" class="twitter-button" data-show-count="false" target="_blank">
         <img src="twitter.png" alt="Twitter" width="22" height="20" alt="Twitter link"/>
+>>>>>>> 026b43ba5829393b149b14e08caa1711c524db63
         </a>
   </div>
   <div id="content">

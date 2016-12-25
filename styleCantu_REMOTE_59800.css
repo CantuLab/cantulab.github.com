@@ -4,11 +4,7 @@ For more information, see http://andreasviklund.com/templates/variant-trio/
 */
 
 /* Main containers */
-<<<<<<< HEAD
-body {padding:0; margin:0; font:93% Helvetica, serif; background:#f0f0f0 url(background.jpg) top center; color:#222; text-align:center; line-height:1.5em;}
-=======
 body {padding:0; margin:0; font:93% Helvetica, serif; background:#f0f0f0 url(background.jpg) top center no-repeat; color:#222; text-align:center; line-height:1.5em;}
->>>>>>> 026b43ba5829393b149b14e08caa1711c524db63
 #wrap {width:980px; text-align:left; margin:0 auto;}
 
 /* Header */
