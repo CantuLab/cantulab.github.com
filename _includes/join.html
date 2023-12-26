@@ -1,0 +1,35 @@
+<!-- Join -->
+{% if site.locale and site.locale != "" and site.locale != nil %}
+<section class="bg-light page-section" id="{{ site.data.sitetext[site.locale].join.section | default: "join" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].join.title | default: "Join Us" }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].join.text | default: "" }}</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-justify">
+        <div class="large text-muted">{{ site.data.sitetext[site.locale].join.body | markdownify }}</div>
+      </div>
+    </div>
+  </div>
+</section>
+{% else %}
+<section class="bg-light page-section" id="{{ site.data.sitetext.join.section | default: "join" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.join.title | default: "Join Us" }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext.join.text | default: "" }}</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-justify">
+        <div class="large text-muted">{{ site.data.sitetext.join.body | markdownify }}</div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+<!-- End Join -->

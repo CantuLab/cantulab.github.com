@@ -1,1 +1,1 @@
-Website of the laboratory of Cantu Dario @ UC Davis
+Website of the Dario Cantu's lab @ UC Davis.

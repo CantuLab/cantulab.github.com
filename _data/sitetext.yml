@@ -1,0 +1,255 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  header:
+    title: "Welcome to the Cantu lab page!"
+    text: 
+    button: Our Research
+    buttonlink: "#research"
+
+  research:
+    title: "Research"
+    text: "Our projects bring together many disciplines including population genetics, haplotype-aware genomics, but also (a)biotic stressors screenings and wine aromas profiling. Our overall aim is to better understand plant genome evolution and facilitate breeding in the context of climate change."
+    section: research
+    list:
+      - title: "Genomics/Genetics"
+        desc: "Our research group employs genomics and genetics to study grapevine traits, evolution, and environmental interactions."
+        icon: fas fa-dna #find more at https://fontawesome.com/icons
+      - title: "Pathogens/Diseases"
+        desc: "Our focus areas include resistance to fungal and bacterial diseases, wood diseases, susceptibility to wildfire smoke, etc."
+        icon: fas fa-bug
+      - title: "Domestication traits"
+        desc: "We also study many traits of agronomical interest such as sex determination, wine aromas and microbiome associations."
+        icon: fas fa-wine-glass
+      - title: "Community"
+        desc: "We provide data and ressources to the community. We host a website for grape genomes including blast and genome browser tools. Find out more on [grapegenomics.com](https://grapegenomics.com)."
+        icon: fas fa-users
+
+  # portfolio:
+  #   title: "Portfolio"
+  #   text: "Lorem ipsum dolor sit amet consectetur."
+  #   section: portfolio
+  #   closebutton: "Close Project"
+
+  timeline:
+    title: "Timeline"
+    text: "A selection of our recent work."
+    section: timeline
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "North American wild grapes | Pangenomics"
+        year: "December 2023"
+        desc: "We constructed a super-pangenome to represent and analyze North American wild species of the Vitis genus. The assembly of phased diploid genomes for the nine selected species was a fundamental starting point to ensure an accurate representation of genetic variations that occur within and between genomes. We were able to navigate through different layers of information integrated within the pangenome graph from large structural variations to single-nucleotide polymorphisms. Read [the article](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03133-2)."
+        image: assets/img/timeline/Dec2023.png
+        alt:
+      - title: "Grape trunk pathogens | Pangenomics"
+        year: "November 2023"
+        desc: "We sequenced fifty isolates from viticulture regions worldwide and built nucleotide-level, reference-free pangenomes for each species. Through examining genomic diversity and pangenome structure, we analyzed intraspecific conservation and variability of putative virulence factors, focusing on functions under positive selection, and recent gene-family dynamics of contraction and expansion. Read [the article](https://apsjournals.apsnet.org/doi/abs/10.1094/MPMI-09-23-0129-R)."
+        image: assets/img/timeline/Nov2023.png
+        alt:
+      - title: "Release of three rootstock genomes | HiFi genomics"
+        year: "October 2022"
+        desc: "we report the diploid chromosome-scale assembly of three widely used rootstocks derived from these species: Richter 110 (110R), Kober 5BB, and 101–14 Millardet et de Grasset (Mgt). Read [the article](https://www.nature.com/articles/s41597-022-01753-0)."
+        image: assets/img/timeline/Oct2022.png
+        alt: 
+      - title: "Diploid genome scaffolding | Tool release"
+        year: "June 2022"
+        desc: "We developed HaploSync, a suite of tools that produces fully phased, chromosome-scale diploid genome assemblies, and performs extensive quality control to limit assembly artifacts. Read [the article](https://academic.oup.com/g3journal/article/12/8/jkac143/6605224)."
+        image: assets/img/timeline/Jun2022.png
+        alt: 
+      - title: "Trayshed genome release | Phased genomics with hybrid scaffolds"
+        year: "February 2021"
+        desc: "We report the phased, chromosome-scale assembly of Trayshed, which was produced improving the previous SMRT assembly with the introduction of the optical maps in a hybrid scaffolding approach and consensus genetic map from multiple wild and cultivated grape species. Read [the article](https://academic.oup.com/g3journal/article/11/4/jkab033/6129119)."
+        image: assets/img/timeline/Feb2021.png
+        alt: 
+      - title: "The genetic basis of sex determination in grapes | Chromosome-scale genomics"
+        year: "June 2020"
+        desc: "We report an improved, chromosome-scale Cabernet Sauvignon genome sequence and the phased assembly of nine wild and cultivated grape genomes. By resolving twenty Vitis SDR haplotypes, we compare male, female, and hermaphrodite haplotype structures and identify sex-linked regions. Read [the article](https://www.nature.com/articles/s41467-020-16700-z)."
+        image: assets/img/timeline/Jun2020.png
+        alt: 
+      - title: "Zinfandel clonal diversity"
+        year: "December 2019"
+        desc: "The purpose of this study was to better appreciate clone diversity and involved defining the nature of somatic mutations throughout the genome. Fifteen Zinfandel winegrape clone genomes were sequenced and compared to one another using a highly contiguous genome reference produced from one of the clones, Zinfandel 03. Read [the article](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-019-6211-2)."
+        image: assets/img/timeline/Dec2019.png
+        alt: 
+      - title: "Grapegenomics.com release"
+        desc: "Release of our community resource website [grapegenomics.com](https://grapegenomics.com) with blast and genome browser tools."
+        image: assets/img/timeline/Dec2019b.png
+        alt:
+      - title: "Carménère genome release"
+        year: "May 2019"
+        desc: "Read [the article](https://academic.oup.com/g3journal/article/9/5/1331/6026426)."
+        image: assets/img/timeline/May2019.png
+        alt: 
+      - title: "Cabernet Sauvignon Iso-seq | Full-length transcriptomics"
+        year: "March 2019"
+        desc: "We used single molecule-real time sequencing (SMRT) to sequence full-length cDNA (Iso-Seq) and reconstruct the transcriptome of Cabernet Sauvignon berries during berry ripening. Read [the article](https://academic.oup.com/g3journal/article/9/3/755/6026739)."
+        image: assets/img/timeline/Mar2019.png
+        alt: 
+      - title: "The Grape Genome | Book release"
+        year: "2019"
+        desc: "Read [the book](https://link.springer.com/book/10.1007/978-3-030-18601-2)."
+        image: assets/img/timeline/2019.png
+        alt: 
+      - title: "Red blotch characterization | Integrated transcriptomics and metabolomics"
+        year: "February 2017"
+        desc: "We integrated genome-wide transcriptional profiling, targeted chemical and biochemical analyses, and demonstrated that grapevine red blotch disrupts ripening and metabolism of red-skinned berries. Read [the article](https://academic.oup.com/jxb/article/68/5/1225/2959531)."
+        image: assets/img/timeline/Feb2017.png
+        alt: 
+      - title: "Grapevine trunk pathogens transcriptomics | Metatranscriptomics"
+        desc: "Using naturally infected field samples expressing a variety of trunk disease symptoms, we show that our approach provides quantitative assessments of species composition, as well as genomewide transcriptional profiling of potential virulence factors, namely cell wall degradation, secondary metabolism and nutrient uptake for all co-infecting GTPs. Read [the article](https://bsppjournals.onlinelibrary.wiley.com/doi/full/10.1111/mpp.12544)."
+        image: assets/img/timeline/Feb2017b.png
+        alt:
+      - title: "Cabernet Sauvignon genome release | Phased genomics"
+        year: "December 2016"
+        desc: "<i>Vitis vinifera</i> cv. Cabernet Sauvignon was selected as a perenial plant model for the release of Falcon and Falcon-Unzip. Read [the article](https://www.nature.com/articles/nmeth.4035)."
+        image: assets/img/timeline/Dec2016.png
+        alt: 
+      - title: "Noble rot characterization | Integrated transcriptomics and metabolomics"
+        year: "December 2015"
+        desc: "We integrated transcriptomics, metabolomics, and enzyme activity assays to characterize the impact of noble rot on the development and metabolism of white-skinned grape berries under field conditions. Read [the article](https://academic.oup.com/plphys/article/169/4/2422/6114124)."
+        image: assets/img/timeline/Dec2015.png
+        alt: 
+      - title: "Grapevine trunk pathogens genomics | Comparative genomics"
+        year: "June 2015"
+        desc: "This study describes the repertoires of putative virulence functions in the genomes of ubiquitous grapevine trunk pathogens. The integration of RNA-seq, comparative and ab initio approaches improved the protein-coding gene prediction in T. minima, whereas shotgun sequencing yielded nearly complete genome drafts of Dia. ampelina, Dip. seriata, and P. chlamydospora. Read [the article](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-015-1624-z)."
+        image: assets/img/timeline/Jun2015.png
+        alt:
+      - title: "Powdery mildew genomics | Comparative genomics"
+        year: "December 2014"
+        desc: "A shotgun approach was applied to sequence and assemble the genome of five E. necator isolates, and RNA-seq and comparative genomics were used to predict and annotate protein-coding genes. Read [the article](https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-15-1081)."
+        image: assets/img/timeline/Dec2014.png
+        alt: 
+      # - title: "Title"
+      #   year: "2009-2011"
+      #   desc: "Your description here, **Markdown** is fully supported."
+      #   image: assets/img/timeline/4.jpg
+      #   alt:
+      #   # you can enforce the alignment
+      #   align: right
+    # end: "Be Part <br> of Our <br> Story!"
+
+  clients:
+    section: clients
+    max-height: 200px
+    horizontal-scrolling: "" #"yes/no"
+    list:
+      - title: "uccaes"
+        url: https://caes.ucdavis.edu/
+        logo: assets/img/clients/uccaes.png 
+      - title: "ucd"
+        url: https://wineserver.ucdavis.edu/#/
+        logo: assets/img/clients/ucd.png
+
+  team:
+    title: "Our Team"
+    text: "The People behind the Science."
+    subtext: 
+    section: team
+    people:
+      - name: "Dario Cantù"
+        role: "Professor of Systems Biology and Louis P. Martini Endowed Chair in Viticulture<br>Executive Director, UC Davis Chile Life Sciences Innovation Center<br>Chair, Viticulture and Enology Graduate Group<br>Chancellor's Fellow"
+        image: assets/img/team/dario.png
+        social:
+          - url: https://x.com/CantuLab
+            icon: fa-brands fa-x-twitter
+          - url: https://scholar.google.com/citations?user=p50Pg0gAAAAJ&hl=en
+            icon: fa-brands fa-google-scholar
+          - url: https://orcid.org/0000-0002-4858-1508
+            icon: fa-brands fa-orcid
+      - name: "Rosa Figueroa-Balderas"
+        role: "Specialist and Lab Manager"
+        image: assets/img/team/rosa.png
+        social:
+          - url: https://scholar.google.com/citations?user=uLOAUp4AAAAJ&hl=en
+            icon: fa-brands fa-google-scholar
+          - url: https://orcid.org/0000-0003-3321-1376
+            icon: fa-brands fa-orcid
+      - name: "Mélanie Massonnet"
+        role: "Project Scientist"
+        image: assets/img/team/melanie.png
+        social:
+          - url: https://scholar.google.com/citations?user=1OiOZYEAAAAJ&hl=en
+            icon: fa-brands fa-google-scholar
+          - url: https://orcid.org/0000-0003-0993-9148
+            icon: fa-brands fa-orcid
+      - name: "Noé Cochetel"
+        role: "Staff Research Associate"
+        image: assets/img/team/noe.png
+        social:
+          - url: https://x.com/NCochetel
+            icon: fa-brands fa-x-twitter
+          - url: https://scholar.google.com/citations?user=P5U4dagAAAAJ&hl=en
+            icon: fa-brands fa-google-scholar
+          - url: https://orcid.org/0000-0003-3395-9536
+            icon: fa-brands fa-orcid
+      - name: "Manon Paineau"
+        role: "Postdoc"
+        image: assets/img/team/manon.png
+        social:
+          - url: https://orcid.org/0000-0001-6881-1203
+            icon: fa-brands fa-orcid
+      - name: "Jerry Lin"
+        role: "PhD Candidate"
+        image: assets/img/team/jerry.png
+        social:
+          - url: https://scholar.google.com/citations?user=MuqeBwoAAAAJ
+            icon: fa-brands fa-google-scholar
+          - url: https://orcid.org/0000-0002-1130-9092
+            icon: fa-brands fa-orcid
+      - name: "Jadran García Navarrete"
+        role: "PhD Candidate"
+        image: assets/img/team/jadran.png
+        social:
+          - url: https://scholar.google.com/citations?user=Tbdz3NcAAAAJ&hl=en
+            icon: fa-brands fa-google-scholar
+          - url: https://orcid.org/0000-0002-5883-4820
+            icon: fa-brands fa-orcid
+      - name: "Mirella Zaccheo"
+        role: "PhD Candidate"
+        image: assets/img/team/mirella.png
+        social:
+          - url: https://scholar.google.com/citations?user=4NqOFqwAAAAJ&hl=en&oi=ao
+            icon: fa-brands fa-google-scholar
+
+  join:
+    title: "Join Us"
+    text: "Interested in joining our group?"
+    body: "Students and researchers at any level in their career (postdoc, PhD, MSc, BSc) and with outstanding training in genetics, plant molecular biology, or bioinformatics are invited to contact us to discuss possible projects. The Cantu lab is accepting MSc students from Viticulture and Enology and PhD students from Plant Biology, Plant Pathology, Integrative Genetics and Genomics, and Horticulture and Agronomy."
+    section: join
+
+  contact:
+    title: "Contact"
+    text: ""
+    body: "dacantu[at]ucdavis.edu<br>University of California Davis<br>Department of Viticulture & Enology<br>595 Hilgard Lane<br>Davis, CA 95616<br>[Google Maps](https://www.google.com/maps/place/595+Hilgard+Ln+Rmi+North,+Davis,+CA+95616/@38.5330728,-121.7534876,17z/data=!3m1!4b1!4m6!3m5!1s0x80852910e276ab99:0x4a4cbde1432868c7!8m2!3d38.5330728!4d-121.7509127!16s%2Fg%2F1tds6xy5?hl=en&entry=ttu)"
+    section: contact
+
+  footer:
+    legal: "Privacy Policy"
+    social:
+      - url: https://x.com/CantuLab
+        icon: "fa-brands fa-x-twitter"
+      - url: https://www.facebook.com/CantuLab/
+        icon: "fa-brands fa-facebook-f"
+      - url: https://github.com/CantuLab/cantulab.github.com
+        icon: "fab fa-github"
+      - url: https://instagram.com/cantulab
+        icon: "fab fa-instagram"
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
