@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>publications</title>
+</head>
+<body>
+  <h1>Recent publications</h1>
+
+  <div id="target"></div> <!-- The target div element -->
+
+<script>
+// Fetch the JSON data from the URL
+fetch('https://web.bftv.ucdavis.edu/googlescholar/scholar.php?user=p50Pg0gAAAAJ&cstart=0')
+  .then(response => response.json())
+  .then(data => {
+    const publications = data.publications;
+
+    const ul = document.createElement('ul'); // Create unordered list element
+
+    publications.forEach(publication => {
+      const li = document.createElement('li'); // Create list item element
+
+      // Set the text content of the list item with the publication details
+      li.innerHTML = `
+        <a href="${publication.link}">${publication.title}</a><br>
+        ${publication.authors}<br>
+        ${publication.venue}
+      `;
+
+      ul.appendChild(li); // Append the list item to the unordered list
+    });
+
+    const targetElement = document.getElementById('target'); // Replace 'target' with the ID of the HTML element where you want the list to be displayed
+    targetElement.appendChild(ul); // Append the unordered list to the target element
+  })
+  .catch(error => {
+    console.error('Error fetching publications data:', error);
+  });
+</script>
+
+
+</body>
+</html>
