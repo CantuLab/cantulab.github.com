@@ -9,7 +9,7 @@
 
 # English (default)
 # -----------------
-# en: &DEFAULT_EN
+en: &DEFAULT_EN
   header:
     title: "Welcome to the Cantu lab page!"
     text: 
