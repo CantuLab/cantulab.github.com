@@ -17,7 +17,7 @@ background: grey
 - Upholding scientific rigor and honesty: We firmly believe in maintaining scientific integrity. For us, honesty in our research process is paramount, and we view mistakes as essential learning moments that enhance the rigor and reliability of our scientific work.
 - Commitment to open science and data Sharing: Advocating for open science, we share our findings and data through preprints, our website grapegenomics.com, and other platforms like Zenodo and NCBI.
 
-<h3 class="section-subheading">Roles and Responsibilities of the lab members</h3>
+<h3>Roles and Responsibilities of the lab members</h3>
 <h4>PI (Dario Cantu)</h4>
 - Ensure funding and provide updates on financial stability.
 - Provide scientific direction and mentorship.
