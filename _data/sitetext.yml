@@ -18,7 +18,7 @@ en: &DEFAULT_EN
 
   research:
     title: "Research"
-    text: "Our projects bring together many disciplines including population genetics, haplotype-aware genomics, but also (a)biotic stressors screenings and wine aromas profiling. Our overall aim is to better understand plant genome evolution and facilitate breeding in the context of climate change. See [our principles](principles.md) for more details."
+    text: "Our projects bring together many disciplines including population genetics, haplotype-aware genomics, but also (a)biotic stressors screenings and wine aromas profiling. Our overall aim is to better understand plant genome evolution and facilitate breeding in the context of climate change. See <a href="principles.md">our principles</a> for more details."
     section: research
     list:
       - title: "Genomics/Genetics"
