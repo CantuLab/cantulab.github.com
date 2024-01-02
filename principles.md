@@ -5,10 +5,10 @@ background: grey
 ---
 
 <div class="col-lg-12 text-center">
-	<h2 class="section-heading text-uppercase">principles</h2>
+	<h2 class="section-heading text-uppercase">Principles</h2>
 </div>
 
-<h3 class="section-subheading">Cantu Lab Principles</h3>
+<!-- <h3 class="section-subheading">Cantu Lab Principles</h3> -->
 - Innovation as a core objective: Our lab is committed to advancing the understanding of biological systems, aiming to make significant contributions to viticulture and plant production in general.
 - Collaboration: We prioritize a collaborative spirit within our team, valuing positive interactions and productivity over internal competition.
 - Broadening partnerships: Actively seeking collaborations with peers in the scientific community and industry stakeholders to enhance the impact and relevance of our research.
@@ -26,7 +26,7 @@ background: grey
 - Resolve disputes and manage administrative tasks.
 - Write recommendation letters for team members.
  
-Graduate Students:
+<h4>Graduate Students</h4>
 - Meet academic requirements and develop research projects.
 - Actively contribute to the lab's research.
 - Regularly read both historical and current literature to stay informed about developments in their field.
@@ -37,7 +37,7 @@ Graduate Students:
 - (Optional) Weekly report submissions.
 - Present research findings at conferences and seminars.
  
-Postdocs:
+<h4>Postdocs</h4>
 - Pursue independent research projects.
 - Engage in meaningful collaborations.
 - Define and work towards career objectives.
@@ -48,7 +48,7 @@ Postdocs:
 - (Optional) Weekly report submissions.
 - Maintain a comprehensive understanding of both foundational and recent literature in their field of study.
  
-Research staff:
+<h4>Research staff</h4>
 - Focus on lab priorities and contribute to ongoing projects.
 - Assist in the maintenance and organization of lab equipment and resources.
 - Participate in training sessions to enhance technical skills.
