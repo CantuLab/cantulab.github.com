@@ -5,6 +5,6 @@
 
 #Image Customization
 header-image: "../img/header-bg.png"
-contact-image: "../img/map-image.png"
+#contact-image: "../img/map-image.png"
 #Font Awesome icon for portfolio grid when an item is hovered over
 #portfolio-icon: fas fa-expand-arrows-alt fa-3x #default: fas fa-plus fa-3x
