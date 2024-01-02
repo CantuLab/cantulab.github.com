@@ -8,7 +8,7 @@ background: grey
 	<h2 class="section-heading text-uppercase">principles</h2>
 </div>
 
-<h3 class="section-subheading">Cantu Lab Principles:</h3>
+<h3 class="section-subheading">Cantu Lab Principles</h3>
 - Innovation as a core objective: Our lab is committed to advancing the understanding of biological systems, aiming to make significant contributions to viticulture and plant production in general.
 - Collaboration: We prioritize a collaborative spirit within our team, valuing positive interactions and productivity over internal competition.
 - Broadening partnerships: Actively seeking collaborations with peers in the scientific community and industry stakeholders to enhance the impact and relevance of our research.
@@ -16,8 +16,8 @@ background: grey
 - Upholding scientific rigor and honesty: We firmly believe in maintaining scientific integrity. For us, honesty in our research process is paramount, and we view mistakes as essential learning moments that enhance the rigor and reliability of our scientific work.
 - Commitment to open science and data Sharing: Advocating for open science, we share our findings and data through preprints, our website grapegenomics.com, and other platforms like Zenodo and NCBI.
 
-Roles and Responsibilities of the lab members:
-PI (Dario Cantu):
+<h3 class="section-subheading">Roles and Responsibilities of the lab members</h3>
+<h4>PI (Dario Cantu)</h4>
 - Ensure funding and provide updates on financial stability.
 - Provide scientific direction and mentorship.
 - Foster a culture of innovation and open communication.
