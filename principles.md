@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Cantu lab principles
+title: principles
 background: grey
 ---
 
