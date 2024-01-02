@@ -7,7 +7,7 @@
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].research.title | default: "Research" }}</h2>
           {% if site.data.sitetext[site.locale].research.text %}
-            <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].research.text }}</h3>
+            <h3 class="section-subheading-paragraph text-muted">{{ site.data.sitetext[site.locale].research.text }}</h3>
           {% endif %}
           {% if site.data.sitetext[site.locale].research.link %}
             <h3 class="section-subheading text-muted">
@@ -40,7 +40,7 @@
       <div class="col-lg-12 text-center">
         <h2 class="section-heading text-uppercase">{{ site.data.sitetext.research.title | default: "Research" }}</h2>
         {% if site.data.sitetext.research.text %}
-          <h3 class="section-subheading text-muted">{{ site.data.sitetext.research.text }}</h3>
+          <h3 class="section-subheading-paragraph text-muted">{{ site.data.sitetext.research.text }}</h3>
         {% endif %}
         {% if site.data.sitetext[site.locale].research.link %}
           <h3 class="section-subheading text-muted">
