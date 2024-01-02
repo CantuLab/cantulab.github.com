@@ -8,7 +8,7 @@ background: grey
 	<h2 class="section-heading text-uppercase">principles</h2>
 </div>
 
-<h3 class="section-subheading text-uppercase">Cantu Lab Principles:</h3>
+<h3 class="section-subheading">Cantu Lab Principles:</h3>
 - Innovation as a core objective: Our lab is committed to advancing the understanding of biological systems, aiming to make significant contributions to viticulture and plant production in general.
 - Collaboration: We prioritize a collaborative spirit within our team, valuing positive interactions and productivity over internal competition.
 - Broadening partnerships: Actively seeking collaborations with peers in the scientific community and industry stakeholders to enhance the impact and relevance of our research.
