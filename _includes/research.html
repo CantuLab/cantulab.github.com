@@ -10,7 +10,7 @@
             <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].research.text }}</h3>
           {% endif %}
           {% if site.data.sitetext[site.locale].research.link %}
-            <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].research.link }}</h3>
+            <a href="principles">{{ site.data.sitetext[site.locale].research.link | default: "principles" }}</a>
           {% endif %}
         </div>
       </div>
@@ -41,7 +41,7 @@
           <h3 class="section-subheading text-muted">{{ site.data.sitetext.research.text }}</h3>
         {% endif %}
         {% if site.data.sitetext[site.locale].research.link %}
-            <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].research.link }}</h3>
+          <a href="principles">{{ site.data.sitetext.research.link | default: "principles" }}</a>
         {% endif %}
       </div>
     </div>

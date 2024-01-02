@@ -5,7 +5,7 @@ background: grey
 ---
 
 <div class="col-lg-12 text-center">
-	<h2 class="section-heading text-uppercase">Cantu lab principles</h2>
+	<h2 class="section-heading text-uppercase">principles</h2>
 </div>
 
 Cantu Lab Principles:
