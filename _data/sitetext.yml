@@ -199,6 +199,8 @@ en: &DEFAULT_EN
         role: "Postdoc"
         image: assets/img/team/manon.png
         social:
+          - url: https://scholar.google.com/citations?user=lN2QF7gAAAAJ
+            icon: fa-brands fa-google-scholar
           - url: https://orcid.org/0000-0001-6881-1203
             icon: fa-brands fa-orcid
       - name: "Jerry Lin"
