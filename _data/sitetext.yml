@@ -178,7 +178,7 @@ en: &DEFAULT_EN
           - url: https://orcid.org/0000-0003-3321-1376
             icon: fa-brands fa-orcid
       - name: "Mélanie Massonnet"
-        role: "Project Scientist"
+        role: "Assistant Project Scientist"
         image: assets/img/team/melanie.png
         social:
           - url: https://scholar.google.com/citations?user=1OiOZYEAAAAJ&hl=en
