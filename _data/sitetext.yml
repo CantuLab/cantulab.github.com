@@ -219,7 +219,7 @@ en: &DEFAULT_EN
   logo:
     section: logo
     max-height: 500px
-    horizontal-scrolling: "no" #"yes/no"
+    horizontal-scrolling: "" #"yes/no"
     list:
       - title: "cantulablogo"
         logo: assets/img/clients/header-bg3.jpg
