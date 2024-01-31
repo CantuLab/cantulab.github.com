@@ -1,0 +1,31 @@
+<!-- Logo -->
+{% if site.locale and site.locale != "" and site.locale != nil %}
+  <section class="py-5" id="{{ site.data.sitetext[site.locale].logo.section | default: "logo" }}">
+    <div class="container">
+      <div class="row" {% if site.data.sitetext[site.locale].logo.horizontal-scrolling == "yes" %} id="scrolling-logo" {% endif %}>
+	    {% for client in site.data.sitetext[site.locale].logo.list %}
+        <div class="col-md-12 col-sm-12">
+          <a href="{{ client.url }}">
+            <img class="img-fluid d-block mx-auto" src="{{ client.logo }}" alt="{{ client.title }}" style="max-height: {{ site.data.sitetext[site.locale].logo.max-height | default: "100px" }}">
+          </a>
+        </div>
+	    {% endfor %}
+      </div>
+    </div>
+  </section>
+{% else %}
+<section class="py-5" id="{{ site.data.sitetext.logo.section | default: "logo" }}">
+  <div class="container">
+    <div class="row" {% if site.data.sitetext.logo.horizontal-scrolling == "yes" %} id="scrolling-logo" {% endif %}>
+    {% for client in site.data.sitetext.logo.list %}
+      <div class="col-md-12 col-sm-12">
+        <a href="{{ client.url }}">
+          <img class="img-fluid d-block mx-auto" src="{{ client.logo }}" alt="{{ client.title }}" style="max-height: {{ site.data.sitetext.logo.max-height | default: "100px" }}">
+        </a>
+      </div>
+    {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+<!-- End Logo -->

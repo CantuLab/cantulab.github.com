@@ -141,18 +141,6 @@ en: &DEFAULT_EN
       #   align: right
     # end: "Be Part <br> of Our <br> Story!"
 
-  clients:
-    section: clients
-    max-height: 200px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "uccaes"
-        url: https://caes.ucdavis.edu/
-        logo: assets/img/clients/uccaes.png 
-      - title: "ucd"
-        url: https://wineserver.ucdavis.edu/#/
-        logo: assets/img/clients/ucd.png
-
   team:
     title: "Our Team"
     text: "The People behind the Science."
@@ -228,6 +216,14 @@ en: &DEFAULT_EN
           - url: https://orcid.org/0000-0003-4939-9764
             icon: fa-brands fa-orcid
 
+  logo:
+    section: logo
+    max-height: 500px
+    horizontal-scrolling: "no" #"yes/no"
+    list:
+      - title: "cantulablogo"
+        logo: assets/img/clients/header-bg3.jpg
+
   join:
     title: "Join Us"
     text: "Interested in joining our group?"
@@ -239,6 +235,18 @@ en: &DEFAULT_EN
     text: ""
     body: "dacantu[at]ucdavis.edu<br>University of California Davis<br>Department of Viticulture & Enology<br>595 Hilgard Lane<br>Davis, CA 95616<br>[Google Maps](https://www.google.com/maps/place/595+Hilgard+Ln+Rmi+North,+Davis,+CA+95616/@38.5330728,-121.7534876,17z/data=!3m1!4b1!4m6!3m5!1s0x80852910e276ab99:0x4a4cbde1432868c7!8m2!3d38.5330728!4d-121.7509127!16s%2Fg%2F1tds6xy5?hl=en&entry=ttu)"
     section: contact
+
+  clients:
+    section: clients
+    max-height: 200px
+    horizontal-scrolling: "" #"yes/no"
+    list:
+      - title: "uccaes"
+        url: https://caes.ucdavis.edu/
+        logo: assets/img/clients/uccaes.png 
+      - title: "ucd"
+        url: https://wineserver.ucdavis.edu/#/
+        logo: assets/img/clients/ucd.png
 
   footer:
     legal: "Privacy Policy"
