@@ -218,7 +218,7 @@ en: &DEFAULT_EN
 
   logo:
     section: logo
-    max-height: 500px
+    max-height: 2000px
     horizontal-scrolling: "" #"yes/no"
     list:
       - title: "cantulablogo"
