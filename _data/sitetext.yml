@@ -222,7 +222,7 @@ en: &DEFAULT_EN
     horizontal-scrolling: "" #"yes/no"
     list:
       - title: "cantulablogo"
-        logo: assets/img/clients/header-bg3.jpg
+        logo: assets/img/header-bg3.jpg
 
   join:
     title: "Join Us"
