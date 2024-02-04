@@ -136,6 +136,6 @@ page.
 
 If you have any questions about this Privacy Policy, You can contact us:
 
-  * By visiting this page on our website: <https://cantulab.github.io/contact>
+  * By visiting this page on our website: <https://cantulab.github.io/#contact>
 
 
