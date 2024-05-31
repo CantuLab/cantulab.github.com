@@ -49,6 +49,11 @@ en: &DEFAULT_EN
     # left is the default
     #start_align: "left"
     events:
+      - title: "The wild side of grape genomics | Grape genomics review"
+        year: "May 2024"
+        desc: "This review discusses how recent breakthroughs in the genome assembly and analysis of wild grape species have led to discoveries on grape evolution, from wild species’ adaptation to environmental stress to grape domestication. Read [the article](https://www.cell.com/trends/genetics/fulltext/S0168-9525(24)00101-X)."
+        image: assets/img/timeline/May2024.png
+        alt:
       - title: "North American wild grapes | Pangenomics"
         year: "December 2023"
         desc: "We constructed a super-pangenome to represent and analyze North American wild species of the Vitis genus. The assembly of phased diploid genomes for the nine selected species was a fundamental starting point to ensure an accurate representation of genetic variations that occur within and between genomes. We were able to navigate through different layers of information integrated within the pangenome graph from large structural variations to single-nucleotide polymorphisms. Read [the article](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03133-2)."
