@@ -49,6 +49,11 @@ en: &DEFAULT_EN
     # left is the default
     #start_align: "left"
     events:
+      - title: "Grapevine downy mildew | GWAS"
+        year: "June 2024"
+        desc: "We identified a genomic region associated with the breakdown of Rpv3.1 grapevine resistance (avrRpv3.1 locus). A diploid-aware reassembly of the P. viticola [...] Read [the article](https://nph.onlinelibrary.wiley.com/doi/full/10.1111/nph.19861)."
+        image: assets/img/timeline/June2024.png
+        alt:
       - title: "The wild side of grape genomics | Grape genomics review"
         year: "May 2024"
         desc: "This review discusses how recent breakthroughs in the genome assembly and analysis of wild grape species have led to discoveries on grape evolution, from wild species’ adaptation to environmental stress to grape domestication. Read [the article](https://www.cell.com/trends/genetics/fulltext/S0168-9525(24)00101-X)."
