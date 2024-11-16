@@ -262,7 +262,7 @@ en: &DEFAULT_EN
     legal: "Privacy Policy"
     social:
       - url: https://bsky.app/profile/cantulab.bsky.social
-        icon: "fab fa-bluesky"
+        icon: "fa-brands fa-bluesky"
       - url: https://x.com/CantuLab
         icon: "fa-brands fa-x-twitter"
       - url: https://www.facebook.com/CantuLab/
