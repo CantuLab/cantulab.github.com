@@ -158,9 +158,11 @@ en: &DEFAULT_EN
     section: team
     people:
       - name: "Dario Cantù"
-        role: "Professor of Systems Biology and Louis P. Martini Endowed Chair in Viticulture<br>Executive Director, UC Davis Chile Life Sciences Innovation Center<br>Chair, Viticulture and Enology Graduate Group<br>Chancellor's Fellow"
+        role: "Professor of Systems Biology<br>Ray Rossi Endowed Chair in Viticulture<br>Executive Director, UC Davis Chile Life Sciences Innovation Center"
         image: assets/img/team/dario.png
         social:
+          - url: https://bsky.app/profile/cantulab.bsky.social
+            icon: "fab fa-bluesky"
           - url: https://x.com/CantuLab
             icon: fa-brands fa-x-twitter
           - url: https://scholar.google.com/citations?user=p50Pg0gAAAAJ&hl=en
@@ -187,6 +189,8 @@ en: &DEFAULT_EN
         role: "Staff Research Associate"
         image: assets/img/team/noe.png
         social:
+          - url: https://bsky.app/profile/ncochetel.bsky.social
+            icon: "fab fa-bluesky"
           - url: https://x.com/NCochetel
             icon: fa-brands fa-x-twitter
           - url: https://scholar.google.com/citations?user=P5U4dagAAAAJ&hl=en
@@ -210,7 +214,7 @@ en: &DEFAULT_EN
           - url: https://orcid.org/0000-0002-1130-9092
             icon: fa-brands fa-orcid
       - name: "Jadran García Navarrete"
-        role: "PhD Candidate"
+        role: "Postdoc"
         image: assets/img/team/jadran.png
         social:
           - url: https://scholar.google.com/citations?user=Tbdz3NcAAAAJ&hl=en
