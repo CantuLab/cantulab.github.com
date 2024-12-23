@@ -234,7 +234,7 @@ en: &DEFAULT_EN
         image: assets/img/team/sole.png
         social:
         - url: https://scholar.google.com/citations?user=_sql6fIAAAAJ&hl
-            icon: fa-brands fa-google-scholar
+          icon: fa-brands fa-google-scholar
 
   logo:
     section: logo
