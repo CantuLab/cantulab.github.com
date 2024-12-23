@@ -232,6 +232,7 @@ en: &DEFAULT_EN
       - name: "Maria Sole Bonarota"
         role: "Postdoc"
         image: assets/img/team/sole.png
+        social:
         - url: https://scholar.google.com/citations?user=_sql6fIAAAAJ&hl
             icon: fa-brands fa-google-scholar
 
