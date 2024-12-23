@@ -229,6 +229,11 @@ en: &DEFAULT_EN
             icon: fa-brands fa-google-scholar
           - url: https://orcid.org/0000-0003-4939-9764
             icon: fa-brands fa-orcid
+      - name: "Maria Sole Bonarota"
+        role: "Postdoc"
+        image: assets/img/team/sole.png
+        - url: https://scholar.google.com/citations?user=_sql6fIAAAAJ&hl
+            icon: fa-brands fa-google-scholar
 
   logo:
     section: logo
