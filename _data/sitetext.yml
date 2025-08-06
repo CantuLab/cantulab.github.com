@@ -235,6 +235,8 @@ en: &DEFAULT_EN
         social:
         - url: https://scholar.google.com/citations?user=_sql6fIAAAAJ&hl
           icon: fa-brands fa-google-scholar
+        - url: https://orcid.org/0009-0008-3798-5997
+          icon: fa-brands fa-orcid
 
   logo:
     section: logo
