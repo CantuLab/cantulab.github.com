@@ -49,6 +49,26 @@ en: &DEFAULT_EN
     # left is the default
     #start_align: "left"
     events:
+      - title: "Phased epigenomics and methylation inheritance | Graph-based panepigenomics and pantranscriptomics"
+        year: "November 2025"
+        desc: "We leverage the parent-progeny sequence graph to highlight allele-specific methylation and conserved transcriptomic patterns for genes and small RNA [...] Read [the article](https://doi.org/10.1186/s13059-025-03858-2)."
+        image: assets/img/timeline/Nov2025b.png
+        alt:
+      - title: "Dual Single-Nucleus Gene Expression Atlas | Single-nucleus transcriptomics"
+        year: "November 2025"
+        desc: "We applied dual-organism single-nucleus transcriptomics to study the interaction between grapevine leaves and Erysiphe necator, the causal agent of powdery mildew [...] Read [the article](https://doi.org/10.1094/MPMI-08-25-0099-R)."
+        image: assets/img/timeline/Nov2025.png
+        alt:
+      - title: "Dissection of the Ren6 and Ren7 powdery mildew resistance loci | Intraspecific locus graph"
+        year: "October 2025"
+        desc: "We constructed sequence graphs for the Ren6 and Ren7 regions across 4 V. piasezkii accessions [...] Read [the article](https://doi.org/10.1093/g3journal/jkaf250)."
+        image: assets/img/timeline/Oct2025.png
+        alt:
+      - title: "Evolutionary conservatuon of the grape SDR | Vitaceae genomics"
+        year: "July 2025"
+        desc: "We explore the evolutionary history of the Vitis SDR over approximately 200 million years within plants and the Vitaceae family [...] Read [the article](https://doi.org/10.1038/s41467-025-61387-9)."
+        image: assets/img/timeline/July2025.png
+        alt:
       - title: "Grapevine downy mildew | GWAS"
         year: "June 2024"
         desc: "We identified a genomic region associated with the breakdown of Rpv3.1 grapevine resistance (avrRpv3.1 locus). A diploid-aware reassembly of the P. viticola [...] Read [the article](https://nph.onlinelibrary.wiley.com/doi/full/10.1111/nph.19861)."
