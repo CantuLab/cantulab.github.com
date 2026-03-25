@@ -18,7 +18,7 @@ en: &DEFAULT_EN
 
   research:
     title: "Research"
-    text: "Our projects bring together many disciplines including population genetics, haplotype-aware genomics, but also (a)biotic stressors screenings and wine aromas profiling. Our overall aim is to better understand plant genome evolution and facilitate breeding in the context of climate change."
+    text: "Our projects bring together many disciplines including population genetics, haplotype-aware graph-based pangenomics, but also (a)biotic stressors screenings and wine aromas profiling. Our overall aim is to better understand plant genome evolution and facilitate breeding in the context of climate change."
     section: research
     principles: "principles"
     publications: "publications"
@@ -253,7 +253,7 @@ en: &DEFAULT_EN
         role: "Postdoc"
         image: assets/img/team/sole.png
         social:
-        - url: https://scholar.google.com/citations?user=_sql6fIAAAAJ&hl
+        - url: https://scholar.google.com/citations?user=_sql6fIAAAAJ&hl=en
           icon: fa-brands fa-google-scholar
         - url: https://orcid.org/0009-0008-3798-5997
           icon: fa-brands fa-orcid

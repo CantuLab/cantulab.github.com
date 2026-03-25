@@ -18,7 +18,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : CANTU LAB
 email      : your-email@example.com #this is also the email contact forms will go to
-description: "Site description"
+description: "The Cantu Lab at UC Davis bring together many disciplines including population genetics, haplotype-aware graph-based pangenomics, but also (a)biotic stressors screenings and wine aromas profiling."
 author     : Your Name
 # logo:     #optional, defaults to site title
   # path: assets\img\clients\creative-market.jpg
